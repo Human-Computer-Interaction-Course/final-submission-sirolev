@@ -1,6 +1,6 @@
 /*
-    What this script allows you to do, is hover over each of the featured book covers
-    and it will update the featured highlight section to show more details about that book.
+    This script allows you to hover over each of the featured book covers and it will 
+    update the highlight pannel on the left to show more details about that book.
 */
 
 
@@ -66,7 +66,7 @@ function mouseOverItem(event) {
     }
 }
 
-// set data to highlight section
+// set data to highlight pannel
 function setHighlight(data) {
     f_img.src = data.banner_img_src;
     f_title.textContent = data.title;
